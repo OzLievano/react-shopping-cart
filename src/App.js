@@ -22,7 +22,7 @@ function App() {
 		<div className="App">
 			<productContext.Provider value={{products,addItem}}>
 				<cartContext.Provider value={cart}>
-					<Navigation cart={cart} />
+					<Navigation/>
 
 					{/* Routes */}
 					<Route exact path="/">
